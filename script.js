@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const recipeData = ALL_RECIPES_DATA.find(r => r.id === recipeId);
 
         if (recipeData) {
-            document.title = `מאמאמיה בייקר - ${recipeData.title}`;
+            document.title = `MamamiaBaker - ${recipeData.title}`;
 
             document.getElementById('breadcrumb-recipe-name').textContent = recipeData.title;
             
@@ -307,7 +307,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentPage === 'recipes.html' && linkPage === 'recipes.html' && link.textContent.trim() === 'המאפים שלי') {
              link.classList.add('active-nav-link');
         }
-        if (currentPage === 'about.html' && linkPage === 'about.html' && link.textContent.trim() === 'על קרין') {
+        if (currentPage === 'about.html' && linkPage === 'about.html' && link.textContent.trim() === 'על קארין') {
             link.classList.add('active-nav-link');
         }
     });
